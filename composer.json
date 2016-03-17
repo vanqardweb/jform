@@ -1,0 +1,25 @@
+{
+    "name": "vanqard/jform",
+    "description": "An experiment with JSON spec'd forms and php",
+    "type": "Package",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thunder Raven-Stoker",
+            "email": "thunder@vanqard.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Vanqard\\": "src/"
+        }
+
+    },
+    "require": {
+        "vanqard/valideer": "^0.1.0"
+    }
+}
